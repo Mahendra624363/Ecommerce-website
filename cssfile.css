@@ -61,7 +61,7 @@ header {
 }
 
 .item button {
-    font-size:70%;
+    font-size: 70%;
     width: 70%;
     height: 30px;
     color: white;
@@ -81,6 +81,43 @@ header {
 #contact {
     display: none;
 }
+.footer {
+    background-color:lightblue;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.social-icons a {
+    display: inline-block; 
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 15px; 
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #555;
+    background-color: #ddd;
+    border-radius: 50%;
+}
+
+.address {
+    font-size: 16px;
+    color: #666;
+    display: inline-block;
+    vertical-align: top; 
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+
 
 @media (max-width: 1024px) {
     .items {
